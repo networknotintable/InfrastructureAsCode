@@ -1,0 +1,11 @@
+---
+bostonrtr1:
+  hostname: bostonrtr1
+  username: cisco
+  password: cisco
+  groups:
+    - ios
+  data:
+    device_asn: 30
+
+

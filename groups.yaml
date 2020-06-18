@@ -1,0 +1,18 @@
+---
+ios:
+  platform: ios
+  port: 22
+  connection_options:
+    netmiko:
+      platform: cisco_ios
+      #username: cisco
+      #password: cisco
+      extras:
+        global_delay_factor: 2
+        #secret: secret_pass
+    napalm:
+      #port: 443
+      extras:
+        optional_args: {}
+  data:
+    log_svr: 2.4.8.1
