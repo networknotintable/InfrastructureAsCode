@@ -7,5 +7,12 @@ bostonrtr1:
     - ios
   data:
     device_asn: 30
+    interfaces:
+      loopback123:
+        state: no shut
+        descr: ntp source loopback
+      loopback10:
+        state: no shut
+        descr: primary loopback
 
 
